@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modal Scrollspy and Popover Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <img src="Flag_of_India.png" alt="Logo" style="width:40px;" class="rounded-pill">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Section 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Section 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Section 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br> <br> <br> <br>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">India</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Three Forces are Army, Air force, and navy</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 1 -->
+<section id="section1" class="container-fluid">
+  <h1>Section 1</h1>
+
+  <p> <b>Indian Army</b> <br>
+
+    The Indian Army is one of the largest and most respected armies in the world. With over 1.4 million active personnel and nearly 1.5 million reserve personnel, it is responsible for maintaining national security and defending India's borders. Its rich history and tradition date back to the mid-19th century, when the British Indian Army was established.
+
+    After India gained independence in 1947, the British Indian Army was divided between India and Pakistan. The Indian Army has since been involved in several conflicts, including the Indo-Pakistani Wars of 1947, 1965, and 1971, the Kargil War of 1999, and various insurgencies and counterinsurgency operations. The Indian Army has also been involved in international peacekeeping operations, including in Sri Lanka, Congo, and Sudan.
+    
+    The Indian Army is organized into several commands, including the Northern Command, Eastern Command, Western Command, Southern Command, and Central Command. Each command is responsible for a specific geographical region and has its own operational and administrative structures. The Indian Army also has specialized forces such as the Parachute Regiment, the Special Forces, and the Army Aviation Corps.
+    
+    The Indian Army is equipped with a wide range of weapons and equipment, including tanks, artillery, helicopters, and aircraft. It has a significant indigenous defense industry that produces equipment such as the Arjun tank and the BrahMos missile. The Indian Army has also modernized its communication and surveillance systems to keep pace with the rapidly evolving technology.
+    
+    The Indian Army is highly respected for its professionalism, discipline, and bravery. It has a rigorous selection process and training program, and soldiers are required to maintain a high level of physical fitness and mental agility. The Indian Army has a strong ethos of service and sacrifice, and soldiers are willing to put their lives on the line to defend the country.
+    
+    The Indian Army has a unique culture and tradition that reflects the diverse nature of India. The Army is committed to promoting unity and harmony among all the communities in the country. Soldiers are encouraged to participate in cultural events and festivals to showcase the rich diversity of India.
+    
+    The Indian Army is also actively involved in social welfare activities. It runs several programs for the welfare of soldiers and their families, including medical facilities, education, and housing. The Army also contributes to the development of local communities by undertaking projects such as building schools, roads, and bridges in remote areas.
+    
+    The Indian Army has faced several challenges over the years, including insurgency and terrorism in Jammu and Kashmir and the Northeast region. The Army has been successful in restoring peace and stability in these regions by using a combination of military force and socio-economic measures.
+    
+    The Indian Army is an important part of India's national identity. It represents the country's commitment to defending its sovereignty and territorial integrity. The Army's contribution to the country's development and progress is widely acknowledged and appreciated by the people of India.
+    
+    In conclusion, the Indian Army is a vital institution that plays a critical role in maintaining national security and defending India's borders. Its rich history, tradition, and culture are a source of inspiration and pride for the people of India. The Army's commitment to service, sacrifice, and social welfare has earned it the respect and admiration of the people. The Indian Army will continue to play a crucial role in shaping India's future and promoting its progress and development.
+    
+    </p>
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  <br><br>
+
+<!-- Button trigger popover -->
+<button type="button" class="btn btn-primary" data-toggle="popover" title="Motto of Indian Army" data-content="Service Before Self (सेवा परमो धर्म:)">
+    Click me
+  </button>
+  
+  <!-- JavaScript to initialize popover -->
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+  </section>
+  <br> <br> <br> <br>
+
+<!-- Section 2 -->
+<section id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+
+  <p> <b>Indian Air Force </b> <br>
+    
+The Indian Air Force (IAF) is the air arm of the Indian Armed Forces. It is responsible for protecting Indian airspace and conducting aerial warfare during a conflict. The IAF is one of the largest air forces in the world, with more than 140,000 personnel and over 1,700 aircraft.
+
+The IAF was established in 1932, making it one of the oldest air forces in the world. Since then, it has played a vital role in defending India's sovereignty and protecting its interests. The IAF has been involved in several conflicts, including the Indo-Pakistani Wars of 1947, 1965, and 1971, the Kargil War of 1999, and various peacekeeping operations.
+
+The IAF is organized into seven commands, each responsible for a specific geographic region. These commands include the Western Air Command, Eastern Air Command, Southern Air Command, Central Air Command, Southwestern Air Command, Training Command, and Maintenance Command. The IAF also has specialized units such as the Garud Commando Force and the Air Force Academy.
+
+The IAF has a wide range of aircraft, including fighter jets, transport aircraft, and helicopters. It has several indigenous aircraft such as the Tejas, which is a multi-role fighter aircraft, and the Dhruv, which is a utility helicopter. The IAF is also equipped with advanced technologies such as radars, missiles, and satellites.
+
+The IAF is highly respected for its professionalism, discipline, and bravery. The IAF has a rigorous selection process and training program, and pilots are required to maintain a high level of physical fitness and mental agility. The IAF has a strong ethos of service and sacrifice, and pilots are willing to put their lives on the line to defend the country.
+
+The IAF has also been actively involved in humanitarian and disaster relief operations. It has provided assistance during natural disasters such as floods, earthquakes, and cyclones. The IAF has also been involved in several international humanitarian missions, including the evacuation of Indian nationals from war-torn countries.
+
+The IAF has faced several challenges over the years, including the constant threat of terrorist attacks and hostile neighbors. The IAF has responded to these threats by modernizing its fleet and upgrading its capabilities. The IAF has also played a critical role in enhancing India's deterrence capability and maintaining strategic stability in the region.
+
+The IAF has also been at the forefront of promoting gender equality and diversity. The IAF has several women pilots who have flown in combat missions and have been awarded for their bravery and courage. The IAF has also launched several initiatives to encourage women to join the force.
+
+In conclusion, the Indian Air Force is a vital institution that plays a critical role in maintaining national security and defending Indian airspace. Its rich history, tradition, and culture are a source of inspiration and pride for the people of India. The IAF's commitment to service, sacrifice, and social welfare has earned it the respect and admiration of the people. The Indian Air Force will continue to play a crucial role in shaping India's future and promoting its progress and development.</p>
+ 
+
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  <br><br>
+
+  <!-- Button trigger popover -->
+<button type="button" class="btn btn-primary" data-toggle="popover" title="Motto Of Indian Air Force" data-content="Touch the sky with Glory (नभः स्पृशं दीप्तम्)">
+    Click me
+  </button>
+  
+  <!-- JavaScript to initialize popover -->
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+  
+</section>
+<br> <br> <br> <br>
+
+
+<!-- Section 3 -->
+
+<section id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+
+  <p> <b>Indian Navy</b> <br> 
+The Indian Navy is the naval branch of the Indian Armed Forces and is responsible for safeguarding India's maritime interests. It was established in 1830 and has since played a crucial role in protecting India's coastline, ensuring safe shipping and conducting operations to support national interests.
+
+The Indian Navy is divided into three commands: Western Naval Command, Eastern Naval Command, and Southern Naval Command. The Western Naval Command is headquartered in Mumbai, the Eastern Naval Command in Visakhapatnam, and the Southern Naval Command in Kochi. Each command is responsible for the maritime security of their respective regions.
+    
+The Indian Navy's fleet consists of various ships, submarines, and aircraft. The Navy has two aircraft carriers, INS Vikrant and INS Vikramaditya, which are capable of carrying various fighter aircraft, helicopters, and maritime patrol aircraft. The Navy also has several frigates, destroyers, corvettes, and patrol vessels that can be deployed for different missions. The Navy's submarine force consists of both nuclear-powered and diesel-electric submarines, which can operate in shallow and deep waters.
+    
+The Indian Navy has also developed several indigenous technologies, such as the INS Arihant, India's first indigenous nuclear-powered submarine. The Navy has also developed the BrahMos supersonic cruise missile, which is one of the world's fastest missiles and can be launched from ships, submarines, and aircraft.
+    
+The Indian Navy has played an important role in maintaining peace and stability in the Indian Ocean region. The Navy has been involved in several humanitarian and disaster relief operations, such as providing assistance during the 2004 Indian Ocean tsunami and the 2015 earthquake in Nepal. The Navy has also played a vital role in anti-piracy operations in the Gulf of Aden and has collaborated with other navies to ensure safe passage for ships.
+    
+The Indian Navy has a rich history of valour and bravery. During the 1971 Indo-Pakistani War, the Navy played a crucial role in the liberation of Bangladesh. The Navy's missile boat, INS Nipat, sank two Pakistani warships during the war. The Navy's aircraft carrier, INS Vikrant, played a critical role in the war by providing air support to the Indian Army.
+    
+The Indian Navy is also focused on modernizing its fleet and upgrading its capabilities to meet the challenges of the 21st century. The Navy has initiated several projects such as the construction of six Scorpene-class submarines, the development of the INS Vikrant-II aircraft carrier, and the induction of the P-8I maritime surveillance aircraft.
+    
+The Indian Navy also places great emphasis on training and development. The Navy's training establishments include the Indian Naval Academy, INS Shivaji, INS Valsura, and INS Chilka. The Navy's officers and sailors undergo rigorous training in areas such as navigation, engineering, and combat operations.
+    
+The Indian Navy is also committed to promoting gender equality and diversity. The Navy has launched several initiatives to encourage women to join the force. In 2016, the Navy opened its doors to women as naval aviators, and in 2020, the Navy inducted its first batch of women pilots for maritime reconnaissance missions.
+    
+In conclusion, the Indian Navy is a crucial component of India's national security apparatus. The Navy's rich history, tradition, and culture are a source of pride and inspiration for the people of India. The Navy's commitment to safeguarding India's maritime interests, promoting peace and stability, and enhancing its capabilities is vital to India's progress and development. The Indian Navy will continue to play a crucial role in shaping India's future and ensuring its security and prosperity.</p>
+ 
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  <br><br>
+
+<!-- Button trigger popover -->
+<button type="button" class="btn btn-primary" data-toggle="popover" title="Motto Of Indian Navy" data-content="May the Lord of Water be auspicious unto us. (शं नो वरुणः)">
+    Click me
+  </button>
+  
+  <!-- JavaScript to initialize popover -->
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+  <br> <br> <br> <br>
+</section>
+
+</body>
+</html>
